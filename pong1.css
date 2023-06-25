@@ -1,0 +1,77 @@
+* {
+  font-family: "Roboto Condensed", sans-serif;
+}
+body {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin: 0px;
+  background-color: rgba(179, 22, 85, 0.848);
+}
+
+#ball {
+  position: fixed;
+  width: 64px;
+  height: 64px;
+  border-radius: 100%;
+  top: 365px;
+  left: 670px;
+}
+
+#paddle1 {
+  position: fixed;
+  width: 24px;
+  height: 192px;
+  left: 0px;
+  top: 300px;
+}
+
+#paddle2 {
+  position: fixed;
+  width: 24px;
+  height: 192px;
+  right: 0px;
+  top: 300px;
+}
+
+.score {
+  color: rgb(216, 235, 49);
+  display: flex;
+  justify-content: space-around;
+  font-size: 90px;
+}
+.hidden {
+  display: none;
+}
+button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(250, 254, 4);
+  border: none;
+  padding: 30px 50px;
+  font-size: 40px;
+  border-radius: 20px;
+}
+button:hover {
+  background-color: rgb(228, 232, 20);
+}
+.help {
+  font-size: 18px;
+  position: absolute;
+  top: 74%;
+  left: 10px;
+}
+.player1 {
+  color: yellow;
+}
+.player2 {
+  color: rgb(58, 31, 35);
+}
+h1 {
+  font-size: 80px;
+  text-align: center;
+}

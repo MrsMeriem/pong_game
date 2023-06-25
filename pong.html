@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Oswald"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <link rel="stylesheet" href="pong1.css" />
+    <script src="pong1.js"></script>
+    <title>ping pong project</title>
+  </head>
+  <body onload="init()">
+    <div class="start">
+      <h1>Pong Game</h1>
+
+      <p class="help">
+        How to play ? <br />
+        <span class="player1"
+          >player 1 :<br />
+
+          a : up <br />
+          q : down <br
+        /></span>
+        <span class="player2">
+          player 2 :<br />
+          p: up <br />
+          m : down<br
+        /></span>
+        win by getting 10
+      </p>
+    </div>
+
+    <div class="game">
+      <div class="score">
+        <span id="score1"> </span>
+        <span id="score2"></span>
+      </div>
+      <img
+        id="ball"
+        src="https://cdn.shopify.com/s/files/1/1087/6636/products/7f0237f11d66a38329bd3c6917762d65.png?v=1564421500"
+        alt="ball"
+      />
+      <img
+        src="https://image.freepik.com/free-photo/wooden-plank-textured-background-material_53876-33591.jpg"
+        alt="paddle"
+        id="paddle1"
+      />
+      <img
+        src="https://image.freepik.com/free-photo/wooden-plank-textured-background-material_53876-33591.jpg"
+        alt="paddle"
+        id="paddle2"
+      />
+    </div>
+  </body>
+</html>
